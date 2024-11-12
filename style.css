@@ -1,0 +1,46 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.features {
+	text-align: center;
+	position: absolute;
+	top: 17.5%;
+	right: calc(50% - 128.74px);
+}
+
+.features h2 {
+	margin-top: 15px;
+	font-size: 38px;
+}
+
+.features p {
+	margin-top: 25px;
+	font-size: 14px;
+}
+
+.block {
+	display: flex;
+	position: absolute;
+	top: 52.5%;
+	right: calc(55% - 407.79px);
+}
+
+.block div:not(.third) {
+	margin-right: 75px;
+}
+
+.block div h3 {
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	
+}
